@@ -33,15 +33,27 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	for (int i = 0; i < 5; i++)
 	{
-		cout << pie[i] << endl;
+		cout << pie[i] << " ";
 	}
 
-	float doughnut[5] = { 5.1, 3.2, 9.8, 7.4, 1.3 };
+	float doughnut[5] = { 5.1, 3.2, 9.8, 7.4, 1.3 };		//array of floating numbers
 	sort(doughnut, 5);
+
+	cout << endl;
 
 	for (int i = 0; i < 5; i++)
 	{
-		cout << doughnut[i] << endl;
+		cout << doughnut[i] << " ";
+	}
+
+	int danish[5] = {'z','g','e','r','u'};					//array of characters
+	sort(danish, 5);
+
+	cout << endl;
+
+	for (int i = 0; i < 5; i++)
+	{
+		cout << (char)danish[i] << " ";
 	}
 
 	return 0;
