@@ -17,7 +17,7 @@ void sort(T arr[], int arrS)
 		{
 			if (arr[j] < arr[i])
 			{
-				temp = arr[j];
+				temp = arr[j];								//bubblesort
 				arr[j] = arr[i];
 				arr[i] = temp;
 			}
@@ -28,6 +28,13 @@ void sort(T arr[], int arrS)
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	int pie[5] = { 5, 3, 9, 7, 1 };							//array of integers
+	sort(pie, 5);
+
+	for (int i = 0; i < 5; i++)
+	{
+		cout << pie[i] << endl;
+	}
 
 	return 0;
 }
