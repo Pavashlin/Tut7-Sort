@@ -36,6 +36,14 @@ int _tmain(int argc, _TCHAR* argv[])
 		cout << pie[i] << endl;
 	}
 
+	float doughnut[5] = { 5.1, 3.2, 9.8, 7.4, 1.3 };
+	sort(doughnut, 5);
+
+	for (int i = 0; i < 5; i++)
+	{
+		cout << doughnut[i] << endl;
+	}
+
 	return 0;
 }
 
